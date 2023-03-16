@@ -54,8 +54,7 @@ color: var(--main-gray-color);
 .address{
 font-style: normal;    
 }
-.address-mail-link,
-.address-tel-link
+.address-contact
 {
 font-weight: 400;
 font-size: 16px;
@@ -69,13 +68,8 @@ color: #434455
     color: var(--main-blue2-color);
 }
 
-.address-mail-link:hover,
-.address-mail-link:focus{
-color: var(--main-blue2-color);
-}
-    
-.address-tel-link:hover,
-.address-tel-link:focus {
+.address-contact:hover,
+.address-contact:focus {
     color: var(--main-blue2-color);
 }
 
