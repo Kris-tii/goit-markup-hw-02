@@ -88,11 +88,11 @@ background: var(--main-gray-color);
 }
 
 .button{
-font-family: 'Roboto'sans-serif;
-font-style: 400;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.50;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
@@ -103,10 +103,12 @@ cursor: pointer
 
 .button:hover,
 .button:focus{
-    color: var(--main-blue2-color)
-    /* background: #404BBF */
+color: var(--main-white-color)
 }
-
+.button:hover,
+.button:focus {
+background: var(--main-blue2-color);
+}
 /* **********************section**************** */
 .section-title{
 font-weight: 500;
