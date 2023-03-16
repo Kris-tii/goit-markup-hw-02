@@ -1,3 +1,12 @@
+:root{
+    --main-blue-color: #4D5AE5 ;
+    --main-white-color: #ffffff ;
+    --main-white2-color: #F4F4FD;
+    --main-gray-color: #2E2F42;
+    --main-blue2-color: #404BBF;
+
+}
+
 body{
 font-family:Roboto, sans-serif ;
 color:#434455 ;
@@ -18,7 +27,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;    
+color: var(--main-blue-color);    
 }
 
 .logo{
@@ -30,7 +39,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--main-gray-color);
 }
 
 .header-link{
@@ -38,7 +47,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-gray-color);
 }
 
 .address{
@@ -56,17 +65,17 @@ color: #434455
 
 .header-link:hover,
 .header-link:focus {
-    color: #404BBF;
+    color: var(--main-blue2-color);
 }
 
 .address-mail-link:hover,
 .address-mail-link:focus{
-color: #404BBF;
+color: var(--main-blue2-color);
 }
     
 .address-tel-link:hover,
 .address-tel-link:focus {
-    color: #404BBF;
+    color: var(--main-blue2-color);
 }
 
 /* ********************hero****************** */
@@ -75,11 +84,11 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;    
+color: var(--main-white-color);    
 }
 
 .hero{
-background: #2E2F42;    
+background: var(--main-gray-color);    
 }
 
 .button{
@@ -91,14 +100,14 @@ line-height: 1.50;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-background: #4D5AE5;
-color: #FFFFFF;
+background: var(--main-blue-color);
+color: var(--main-white-color);
 cursor: pointer
 }
 
 .button:hover,
 .button:focus{
-    color: #404BBF
+    color: var(--main-blue2-color)
     /* background: #404BBF */
 }
 
@@ -126,12 +135,12 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--main-gray-color);
 }
 
 /********************** aside ******************/
 .aside{
-background: #F4F4FD;    
+background: var(--main-white2-color);    
 }
 
 .aside-title{
@@ -149,7 +158,7 @@ font-size: 20px;
 line-height: 1.20;
 text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-gray-color);
 }
 
 .side-text{
@@ -162,7 +171,7 @@ color: #434445;
 }
 /********************** footer ******************/
 .footer{
-    background: #2E2F42;
+    background: var(--main-gray-color);
 }
 
 .footer-text{
@@ -170,23 +179,23 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;    
+color: var(--main-white2-color);    
 }
 
 .part-logo-white{
-color: #F4F4FD    
+color: var(--main-white2-color)    
 }
 
 /* +++++++++++++++++++++++++++++++Portfolio+++++++++ */
 .btn{
-color: #4D5AE5;
-background: #F4F4FD;
+color: var(--main-blue-color);
+background: var(--main-white2-color);
 }
 
 .btn:hover,
 .btn:focus{
-background: #404BBF;
-color: #FFFFFF
+background: var(--main-blue2-color);
+color: var(--main-white-color)
 }
 
 .slider-title{
@@ -194,7 +203,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
-color: #2E2F42;    
+color: var(--main-gray-color);    
 }
 
 .slider-text{
