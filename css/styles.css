@@ -4,12 +4,13 @@
     --main-white2-color: #F4F4FD;
     --main-gray-color: #2E2F42;
     --main-blue2-color: #404BBF;
+    --main-gray2-color: #434455;
 
 }
 
 body{
 font-family:Roboto, sans-serif ;
-color:#434455 ;
+color:var(--main-gray2-color) ;
 background-color:var(--main-white-color)
 }
 .link {
@@ -60,7 +61,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455
+color: var(--main-gray2-color)
 }
 
 .header-link:hover,
@@ -120,7 +121,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: #434455;    
+color:var(--main-gray2-color)    
 }
 /* **********************content**************** */
 
@@ -162,7 +163,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-color: #434445;
+color: var(--main-gray2-color);
 }
 
 .aside-item{
