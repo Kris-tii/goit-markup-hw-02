@@ -1,5 +1,6 @@
 body{
 font-family:Roboto, sans-serif ;
+color:#434455 ;
 }
 .link {
 text-decoration: none;
@@ -12,7 +13,7 @@ list-style: none;
 font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -40,15 +41,17 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
+.address{
+font-style: normal;    
+}
 .address-mail-link,
 .address-tel-link
 {
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: #434455
 }
 
 .header-link:hover,
@@ -69,7 +72,7 @@ color: #404BBF;
 /* ********************hero****************** */
 .hero-title{
 font-size: 56px;
-line-height: 1.08;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;    
@@ -80,7 +83,7 @@ background: #2E2F42;
 }
 
 .button{
-font-family: 'Roboto';
+font-family: 'Roboto'sans-serif;
 font-style: 400;
 font-weight: 500;
 font-size: 16px;
@@ -90,11 +93,13 @@ align-items: center;
 letter-spacing: 0.04em;
 background: #4D5AE5;
 color: #FFFFFF;
+cursor: pointer
 }
 
 .button:hover,
 .button:focus{
-    background: #404BBF
+    color: #404BBF
+    /* background: #404BBF */
 }
 
 /* **********************section**************** */
@@ -150,11 +155,10 @@ color: #2E2F42;
 .side-text{
     font-weight: 400;
 font-size: 16px;
-line-height: 1.50;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-color: #434455;
-
+color: #434445;
 }
 /********************** footer ******************/
 .footer{
@@ -198,5 +202,4 @@ color: #2E2F42;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: #434455;
 }
