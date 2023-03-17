@@ -5,7 +5,6 @@
     --main-gray-color: #2E2F42;
     --main-blue2-color: #404BBF;
     --main-gray2-color: #434455;
-
 }
 
 body{
@@ -225,3 +224,4 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: var(--main-gray2-color);
 }
+
